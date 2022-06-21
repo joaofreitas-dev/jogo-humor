@@ -25,14 +25,14 @@ button.addEventListener("click", () => {
   if (fase === "fase-1") {
     title.innerHTML = "";
     title.appendChild(title1);
-    image.src = "/assets/img/homer-lendo.jpg";
+    image.src = "./assets/img/homer-lendo.jpg";
     text.appendChild(text1);
     fase = "fase-2";
     button.innerHTML = "Próxima Fase";
   } else if (fase === "fase-2") {
     title.innerHTML = "";
     title.appendChild(title2);
-    image.src = "/assets/img/homer-lendo.gif";
+    image.src = "./assets/img/homer-lendo.gif";
     text.innerHTML = "";
     text.appendChild(text2);
     fase = "fase-3";
@@ -40,7 +40,7 @@ button.addEventListener("click", () => {
   } else if (fase === "fase-3") {
     title.innerHTML = "";
     title.appendChild(title3);
-    image.src = "/assets/img/homer-presidente.webp";
+    image.src = "./assets/img/homer-presidente.webp";
     text.innerHTML = "";
     text.appendChild(text3);
     fase = "fase-1";
